@@ -4,15 +4,12 @@ namespace CreateFiles
 {
     class Program
     {
-        //enum Figures 
-        //{
-        //    Cube,
-        //    Cylinder,
-        //    Pyramide,
-        //    Ball,
-        //    Cone,
-        //    Prism
-        //}
+        //Куб
+        //Цилиндр
+        //Пирамида
+        //Шар
+        //Конус
+        //Призма
 
         static private int SelectFigure()
         {
@@ -21,12 +18,7 @@ namespace CreateFiles
             return selectFugure;
         }
 
-        //Куб
-        //Цилиндр
-        //Пирамида
-        //Шар
-        //Конус
-        //Призма
+        
 
         static private void CreateFigure()
         {
